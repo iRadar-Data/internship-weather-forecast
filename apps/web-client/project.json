@@ -12,8 +12,8 @@
         "outputPath": "dist/apps/web-client",
         "index": "apps/web-client/src/index.html",
         "baseHref": "/",
-        "main": "apps/web-client/src/main.tsx",
-        "polyfills": "apps/web-client/src/polyfills.ts",
+        "main": "apps/web-client/src/main.js",
+        "polyfills": "apps/web-client/src/polyfills.js",
         "tsConfig": "apps/web-client/tsconfig.app.json",
         "assets": [
           "apps/web-client/src/favicon.ico",
@@ -27,8 +27,8 @@
         "production": {
           "fileReplacements": [
             {
-              "replace": "apps/web-client/src/environments/environment.ts",
-              "with": "apps/web-client/src/environments/environment.prod.ts"
+              "replace": "apps/web-client/src/environments/environment.js",
+              "with": "apps/web-client/src/environments/environment.prod.js"
             }
           ],
           "optimization": true,

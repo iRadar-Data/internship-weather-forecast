@@ -15,10 +15,9 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@weather-forecast/constants-lib": ["libs/constants-lib/src/index.ts"],
-      "@weather-forecast/helpers-lib": ["libs/helpers-lib/src/index.ts"],
-      "@weather-forecast/services-lib": ["libs/services-lib/src/index.ts"],
-      "@weather-forecast/types-lib": ["libs/types-lib/src/index.ts"]
+      "@weather-forecast/constants-lib": ["libs/constants-lib/src/index.js"],
+      "@weather-forecast/helpers-lib": ["libs/helpers-lib/src/index.js"],
+      "@weather-forecast/services-lib": ["libs/services-lib/src/index.js"]
     }
   },
   "exclude": ["node_modules", "tmp"]

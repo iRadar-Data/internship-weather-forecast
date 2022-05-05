@@ -1,10 +1,8 @@
 import { render } from '@testing-library/react';
-
-import HelpersLib from './helpers-lib';
-
-describe('HelpersLib', () => {
+import ConstantsLib from './constants-lib';
+describe('ConstantsLib', () => {
   it('should render successfully', () => {
-    const { baseElement } = render(<HelpersLib />);
+    const { baseElement } = render(<ConstantsLib />);
     expect(baseElement).toBeTruthy();
   });
 });

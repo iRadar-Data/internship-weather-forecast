@@ -5,7 +5,6 @@
     "helpers-lib": "libs/helpers-lib",
     "services-api": "apps/services-api",
     "services-lib": "libs/services-lib",
-    "types-lib": "libs/types-lib",
     "web-client": "apps/web-client",
     "web-client-e2e": "apps/web-client-e2e"
   }
