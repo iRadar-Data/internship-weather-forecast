@@ -1,13 +1,13 @@
 # WeatherApp
 
-This project should show how frontend React web client could be implemented using functionalities from other libraries.
-Connecting to external OpenWeather API and internal Serverless API
+This project should show how frontend React web-client could be implemented using functionalities from other libraries.
+Connecting to external OpenWeather API services-lib and internal Serverless API services-api.
 
 ## Steps
 
 1. Create React web-client frontend - creating components and separating functionalities in other libraries
-2. Create TypeScript service-lib library - implementation of OpenWeather API endpoints
-3. Create Serverless service-api backend - implementation of OpenWeather API endpoints and cache them using MongoDB
+2. Create TypeScript services-lib library - implementation of OpenWeather API endpoints
+3. Create Serverless services-api backend - implementation of OpenWeather API endpoints and cache them using MongoDB
 
 ## Layout Example
 
@@ -24,7 +24,7 @@ Connecting to external OpenWeather API and internal Serverless API
 - 3 Libs that common to all apps and they are used by them
   - [Constants](libs/constants-lib) - all constants used in applications
   - [Types](libs/types-lib) - all types used in applications
-  - [Helpers](libs/helpers-lib) - all functions used for Pipes and Filters in applications
+  - [Helpers](libs/helpers-lib) - all functions used as utils in applications
   - [Services](libs/services-lib) - all services and APIs used in applications
 
 ### Web Client Features
