@@ -1,0 +1,23 @@
+{
+  "root": "libs/services-lib",
+  "sourceRoot": "libs/services-lib/src",
+  "projectType": "library",
+  "tags": [],
+  "targets": {
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "outputs": ["{options.outputFile}"],
+      "options": {
+        "lintFilePatterns": ["libs/services-lib/**/*.{ts,tsx,js,jsx}"]
+      }
+    },
+    "test": {
+      "executor": "@nrwl/jest:jest",
+      "outputs": ["coverage/libs/services-lib"],
+      "options": {
+        "jestConfig": "libs/services-lib/jest.config.js",
+        "passWithNoTests": true
+      }
+    }
+  }
+}

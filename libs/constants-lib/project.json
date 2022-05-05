@@ -1,0 +1,23 @@
+{
+  "root": "libs/constants-lib",
+  "sourceRoot": "libs/constants-lib/src",
+  "projectType": "library",
+  "tags": [],
+  "targets": {
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "outputs": ["{options.outputFile}"],
+      "options": {
+        "lintFilePatterns": ["libs/constants-lib/**/*.{ts,tsx,js,jsx}"]
+      }
+    },
+    "test": {
+      "executor": "@nrwl/jest:jest",
+      "outputs": ["coverage/libs/constants-lib"],
+      "options": {
+        "jestConfig": "libs/constants-lib/jest.config.js",
+        "passWithNoTests": true
+      }
+    }
+  }
+}

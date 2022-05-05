@@ -1,0 +1,23 @@
+{
+  "root": "libs/helpers-lib",
+  "sourceRoot": "libs/helpers-lib/src",
+  "projectType": "library",
+  "tags": [],
+  "targets": {
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "outputs": ["{options.outputFile}"],
+      "options": {
+        "lintFilePatterns": ["libs/helpers-lib/**/*.{ts,tsx,js,jsx}"]
+      }
+    },
+    "test": {
+      "executor": "@nrwl/jest:jest",
+      "outputs": ["coverage/libs/helpers-lib"],
+      "options": {
+        "jestConfig": "libs/helpers-lib/jest.config.js",
+        "passWithNoTests": true
+      }
+    }
+  }
+}
